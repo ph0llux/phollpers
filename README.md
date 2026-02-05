@@ -1,0 +1,1 @@
+This crate provides several helper stuff for my other projects.
