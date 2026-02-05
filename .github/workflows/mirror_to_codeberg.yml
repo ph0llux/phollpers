@@ -12,6 +12,6 @@ jobs:
           fetch-depth: 0
       - uses: yesolutions/mirror-action@master
         with:
-          REMOTE: 'https://codeberg.org/zff-team/zff-rs.git'
+          REMOTE: 'https://codeberg.org/ph0llux/phollpers'
           GIT_USERNAME: yourusername
           GIT_PASSWORD: ${{ secrets.CODEBERG_TOKEN }}
