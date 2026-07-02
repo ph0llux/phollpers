@@ -6,8 +6,8 @@ rust-version = "1.85.0"
 license = "MIT OR Apache-2.0"
 description = "This crate provides several helper functions and traits for my projects."
 readme = "./README.md"
-homepage = "https://github.com/ph0llux/phollpers"
-repository = "https://github.com/ph0llux/phollpers"
+homepage = "https://codeberg.org/ph0llux/phollpers"
+repository = "https://codeberg.org/ph0llux/phollpers"
 keywords = ["helper"]
 publish = true
 
