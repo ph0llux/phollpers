@@ -47,7 +47,7 @@ pub fn detect_compression<I: Read + Seek>(input: &mut I) -> Result<CompressionAl
 
     let seek_position = input.stream_position()?;
     let mut buffer = [0u8; 6];
-    input.read(&mut buffer)?;
+    input.read_exact(&mut buffer)?;
 
     input.seek(SeekFrom::Start(seek_position))?;
     
